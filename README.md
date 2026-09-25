@@ -1,4 +1,4 @@
-# Multi-Agent Reinforcement Learning - Independent Q-Learning
+# Multi-Agent Reinforcement Learning HW1 - Independent Q-Learning
 
 **Home Assignment (Grade 100, M.Sc. Data Science, HIT). Independent Q-Learning (IQL) from scratch: two agents, each learning its own Q-function with no model of the other, trained on the one-shot Prisoner's Dilemma. The question is what independent learners converge to when cooperation pays more but defection is individually rational.**
 
@@ -24,4 +24,5 @@
 - `requirements.txt`: Dependencies.
 - `Assignment_1.pdf`: Original assignment instructions.
 
-Based on the exercises accompanying *Multi-Agent Reinforcement Learning: Foundations and Modern Approches* — [marl-book-exercises](https://github.com/marl-book/marl-book-exercises).
+## Source
+The assignment is the Tuesday exercise, *Tabular Multi-Agent Reinforcement Learning*, from [marl-book-exercises](https://github.com/marl-book/marl-book-exercises) — designed for the [Barcelona Summer School 2024 on Multi-Agent Reinforcement Learning](https://iiia.csic.es/en-us/marl-course/) and based on the textbook [*Multi-Agent Reinforcement Learning: Foundations and Modern Approaches*](https://marl-book.com/).
