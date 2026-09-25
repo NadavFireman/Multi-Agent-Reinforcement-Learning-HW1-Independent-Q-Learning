@@ -13,7 +13,7 @@
 - **Exploration-Schedule Extension:** three ε-schedules compared under the same seed, with all results exported to CSV.
 
 ## Repository Structure
-- `Multi_Agent_Reinforcement_Learning_HW1.ipynb`: Full solution notebook — training, Q-tables, plots and analysis (Hebrew narrative).
+- `Multi_Agent_Reinforcement_Learning_HW1.ipynb`: Full solution notebook — training, Q-tables, plots and analysis (explanations in Hebrew).
 - `iql.py`: The IQL agent — ε-greedy action selection and the Q-learning update.
 - `train_iql.py`: Training and evaluation loop.
 - `schedule_experiment.py`: Comparison of three ε-schedules — linear, exponential and constant.
@@ -24,4 +24,4 @@
 - `requirements.txt`: Dependencies.
 - `Assignment_1.pdf`: Original assignment instructions.
 
-Based on the exercises accompanying *Multi-Agent Reinforcement Learning: Foundations and Modern Approaches* — [marl-book-exercises](https://github.com/marl-book/marl-book-exercises).
+Based on the exercises accompanying *Multi-Agent Reinforcement Learning: Foundations and Modern Approches* — [marl-book-exercises](https://github.com/marl-book/marl-book-exercises).
