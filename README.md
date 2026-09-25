@@ -14,11 +14,14 @@
 
 ## Repository Structure
 - `Multi_Agent_Reinforcement_Learning_HW1.ipynb`: Full solution notebook — training, Q-tables, plots and analysis (Hebrew narrative).
-- `iql.py`: The IQL agent.
-- `train_iql.py` / `schedule_experiment.py`: Training and evaluation loop, and the ε-schedule comparison.
-- `matrix_game.py` / `utils.py`: The matrix-game environment, and plotting and CSV helpers.
-- `matrix_game_iql.csv` / `matrix_game_iql_schedules.csv`: Evaluation results of the main run and of the three schedules.
+- `iql.py`: The IQL agent — ε-greedy action selection and the Q-learning update.
+- `train_iql.py`: Training and evaluation loop.
+- `schedule_experiment.py`: Comparison of three ε-schedules — linear, exponential and constant.
+- `matrix_game.py`: The Prisoner's Dilemma matrix-game environment.
+- `utils.py`: Plotting and CSV helpers.
+- `matrix_game_iql.csv`: Evaluation results of the main run.
+- `matrix_game_iql_schedules.csv`: Evaluation results of the three ε-schedules.
 - `requirements.txt`: Dependencies.
-- `Assignment_1.pdf` / `Assignment_1.docx`: Original assignment instructions.
+- `Assignment_1.pdf`: Original assignment instructions.
 
 Based on the exercises accompanying *Multi-Agent Reinforcement Learning: Foundations and Modern Approaches* — [marl-book-exercises](https://github.com/marl-book/marl-book-exercises).
